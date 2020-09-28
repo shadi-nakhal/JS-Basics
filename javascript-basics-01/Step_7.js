@@ -3,9 +3,15 @@ var num2 = window.prompt("Enter birth year: ");
 
 
 
-var end = ((num1 * 2) + 5) * 50 - num2 + 1766;
 
-alert(end)
+
+
+var end = function() {
+    let cal = ((num1 * 2) + 5) * 50 - num2 + 1766
+    return cal
+}
+
+alert(end())
 
 
 
