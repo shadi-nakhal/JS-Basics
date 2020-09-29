@@ -9,6 +9,9 @@ const changeImg = (imgs) => {
             e.target.src = ( `images/image${i+1}` + "_2.jpg")  
          })
 
+         img.addEventListener("mouseout", function(e){
+            e.target.src = `images/image${i+1}.jpg`
+        });
     }) 
 
 }
