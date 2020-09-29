@@ -1,4 +1,4 @@
-var x = document.getElementById("name");
+var x = document.querySelector("input");
 
 
 x.addEventListener('blur', function(){
