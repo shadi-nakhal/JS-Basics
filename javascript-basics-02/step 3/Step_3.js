@@ -1,10 +1,14 @@
-var div = document.getElementById('divID');
+const input = document.getElementById('name');
 
-var input = document.getElementById('name');
+const tag = document.createElement("div")
+
+document.body.appendChild(tag)
 
 input.addEventListener("input", () => {
-    var bla = input.value;
-    div.textContent = bla
+
+    tag.innerText = ""
+    tag.innerHTML += input.value
+
 })
 
 
